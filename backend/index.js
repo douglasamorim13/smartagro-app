@@ -9,7 +9,7 @@ app.use(express.json());
 // Proxy para as câmeras
 app.use("/camera/:canal", (req, res, next) => {
   const canal = req.params.canal;
-  const url = `http://tecgesco:tecgesco25@192.168.0.167/cgi-bin/snapshot.cgi?channel=${canal}`;
+  const url = `http://admin:admin123@192.168.0.67/cgi-bin/snapshot.cgi?channel=${canal}`;
   createProxyMiddleware({
     target: url,
     changeOrigin: true,
