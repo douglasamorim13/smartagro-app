@@ -6,6 +6,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
