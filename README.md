@@ -1,4 +1,4 @@
-# Smart Agro
+# Smart Agro v1
 
 1. Clona projeto
 
