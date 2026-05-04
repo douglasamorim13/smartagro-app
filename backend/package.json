@@ -10,8 +10,15 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@serialport/parser-readline": "^13.0.0",
+    "axios": "^1.15.2",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
     "express": "^5.1.0",
-    "http-proxy-middleware": "^3.0.5"
+    "http-proxy-middleware": "^3.0.5",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.20.0",
+    "serialport": "^13.0.0"
   }
 }
